@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Elixir', 'Node.js', 'HTML & CSS'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +135,28 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              I'm a full-stack developer with a passion for learning and understanding the
+              intricacies of the web. I started out by learning HTML &amp; CSS to create Tumblr
+              themes for myself and my friends in highschool. It quickly grew into a deep curiosity
+              for coding and how much more there was to learn.
             </p>
-
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
+              In 2020, I enrolled in a{' '}
+              <a href="https://www.lighthouselabs.ca/en/web-development-bootcamp">
+                coding bootcamp
               </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              where I learned how to build full-stack websites and applications. Since then, I’ve
+              had the privilege of working at startups in the{' '}
+              <a href="https://hiredhippo.ai/">HR/Recruiting</a> industry and{' '}
+              <a href="https://lighthouseregistry.com/"> financial services</a> industry to develop
+              SaaS applications. My main focus these days is designing and developing thoughtful
+              products to stop elder financial abuse at{' '}
+              <a href="https://lighthouseregistry.com/">Lighthouse Registry</a>.
+            </p>
+            <p>
+              Outside of work, my interests are wide-ranging: from learning about the different
+              areas of design or artificial intelligence to painting and trying new restaurants in
+              the city!
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
@@ -173,7 +171,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/headshot.png"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
