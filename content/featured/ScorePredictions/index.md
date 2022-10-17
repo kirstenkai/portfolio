@@ -2,8 +2,8 @@
 date: '1'
 title: 'Score Predictions'
 cover: './nbascores.png'
-github: 'https://github.com/bchiang7/halcyon-site'
-external: 'https://halcyon-theme.netlify.com/'
+github: 'https://github.com/kirstenkai/react-basketball-app'
+external: ''
 tech:
   - React
   - Material UI

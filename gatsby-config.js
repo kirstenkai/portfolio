@@ -6,7 +6,7 @@ module.exports = {
     description:
       'Kirsten Kai is a software developer specializing in building exceptional digital experiences for the web.',
     siteUrl: 'https://kirstenkai.com', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
+    image: '/preview.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '',
   },
   plugins: [
