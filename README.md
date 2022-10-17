@@ -21,9 +21,14 @@
   </a>
 </p> -->
 
+<div align="center">
+  
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/68bcfe7b-c8ab-427b-866d-247338ba0624/deploy-status)](https://app.netlify.com/sites/sweet-genie-fa8023/deploys)
+  
+</div>
+
 ![demo](https://raw.githubusercontent.com/kirstenkai/portfolio/main/src/images/preview.png)
 
----
 
 ## Credits
 
